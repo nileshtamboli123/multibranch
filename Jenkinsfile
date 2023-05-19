@@ -2,11 +2,11 @@ pipeline {
   agent {
     node {
       label "built-in"
-      customWorkspace "/mnt/ahmedabad"
+      customWorkspace "/mnt/nandurbar"
     }
   }
   stages {
     stage ("mkdir") {
       steps {
-       sh "mkdir nilesh"
+       sh "mkdir dipali"
 }
